@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.karrar.netick": {
+      "version": "https://github.com/NetickNetworking/NetickForUnity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "hash": "4b3f67ad8004e9dedc02e42218542e6aadfebc4c"
+    },
+    "com.stinkysteak.netcode-latency-utl": {
+      "version": "https://github.com/StinkySteak/unity-netcode-latency-util.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "112628e62dcda45af27513ef5a047dd446112e39"
+    },
     "com.unity.editorcoroutines": {
       "version": "1.0.0",
       "depth": 1,
@@ -48,6 +64,13 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.5",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
